@@ -1,0 +1,67 @@
+/* DashBoard */
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    display: flex;
+    background-color: whitesmoke;
+    font-size: 12px;
+    font-family: 'Nunito Sans';
+    flex-direction: column;
+}
+
+#nav-bar {
+    display: flex;
+    background-color: white;
+    height: 80px;
+    align-items: center;
+}
+
+#ums-logo {
+    padding: 2px;
+}
+
+#nav-link {
+    display: flex;
+    background-color: aqua;
+    justify-content: flex-end;
+    width: 100%;
+    font-size: 20px;
+    padding: 2px;
+}
+
+.drop-down {
+    margin: 0 10px 0 0;
+    padding:0 10px 0 10px;
+    background-color: yellow;
+}
+
+#user-info {
+    display: flex;
+    width: 350px;
+    justify-content: flex-end;
+    align-items: center;
+    height: 70px;
+}
+
+#user-details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin: 0 10px;
+    font-size: 16px;
+}
+
+#user-logo {
+    height: 60px;
+    width: 60px;
+    position: relative;
+}
+
+#user-img {
+    height: 60px; 
+    width: 60px;
+    border-radius: 50%;
+}
