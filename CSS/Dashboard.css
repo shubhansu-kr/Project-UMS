@@ -1,10 +1,12 @@
 /* DashBoard */
 
-html {
+html 
+{
     scroll-behavior: smooth;
 }
 
-body {
+body 
+{
     display: flex;
     background-color: whitesmoke;
     font-size: 12px;
@@ -12,56 +14,139 @@ body {
     flex-direction: column;
 }
 
-#nav-bar {
-    display: flex;
-    background-color: white;
-    height: 80px;
-    align-items: center;
-}
+/* nav-Bar */
 
-#ums-logo {
-    padding: 2px;
-}
+    #nav-bar 
+    {
+        display: flex;
+        background-color: white;
+        height: 80px;
+        align-items: center;
+    }
 
-#nav-link {
-    display: flex;
-    background-color: aqua;
-    justify-content: flex-end;
-    width: 100%;
-    font-size: 20px;
-    padding: 2px;
-}
+    /* Inside Nav bar */
 
-.drop-down {
-    margin: 0 10px 0 0;
-    padding:0 10px 0 10px;
-    background-color: yellow;
-}
+    /* Part1: logo 1 */
+        #ums-logo 
+        {
+            padding: 2px;
+        }
+    /* part1: end */
 
-#user-info {
-    display: flex;
-    width: 350px;
-    justify-content: flex-end;
-    align-items: center;
-    height: 70px;
-}
+    /* Part2: dropdown */
+        #nav-link 
+        {
+            display: flex;
+            justify-content: flex-end;
+            width: 100%;
+            font-size: 20px;
+            padding: 2px;
+        }
 
-#user-details {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    margin: 0 10px;
-    font-size: 16px;
-}
+        .drop-down 
+        {
+            margin: 0 10px 0 0;
+            padding:0 10px 0 10px;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            display: inline-block;
+        }
 
-#user-logo {
-    height: 60px;
-    width: 60px;
-    position: relative;
-}
+        .dropbtn 
+        {
+            background-color: white;
+            border: none;
+            font-size: 16px;
+        }
 
-#user-img {
-    height: 60px; 
-    width: 60px;
-    border-radius: 50%;
-}
+        .dropdown-content 
+        {
+            display: flex;
+            flex-direction: column;
+            display: none;
+            position: absolute;
+        }
+
+        .dropdown-content a 
+        {
+            color: black;
+            font-size: 16px;
+            margin: 5px;
+            text-decoration: none;
+        }
+
+        .dropdown-content a:hover 
+        {
+            font-size: 17px;
+            width: 100%;
+        }
+
+        .drop-down:hover .dropdown-content 
+        {
+            display: block;
+            display: flex;
+            flex-direction: column;
+            padding: 5px;
+            background-color: whitesmoke;
+        }
+    /* Part2: end */
+
+    /* Part3: User info */
+        #user-info 
+        {
+            display: flex;
+            width: 350px;
+            justify-content: flex-end;
+            align-items: center;
+            height: 70px;
+        }
+
+        #user-details 
+        {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            margin: 0 10px;
+            font-size: 16px;
+        }
+
+        #user-logo 
+        {
+            height: 60px;
+            width: 60px;
+            position: relative;
+        }
+
+        #user-img 
+        {
+            height: 60px; 
+            width: 60px;
+            border-radius: 50%;
+        }
+
+        #user-img:hover 
+        {
+            transform: scale(1.15);
+        }
+
+        #reg, #course 
+        {
+            font-size: 12px;
+        }
+
+        #name:hover 
+        {
+            font-size: 17px;
+            color: red;
+        }
+        #reg:hover 
+        {
+            color: blue;
+        }
+        #course:hover 
+        {
+            color: blue;
+        }
+    /* Part3: end */
+/* Nav-bar end */
