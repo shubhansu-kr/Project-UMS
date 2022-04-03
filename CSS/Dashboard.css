@@ -201,7 +201,61 @@ body
         #body-content {
             display: flex;
             flex-direction: column;
-            /* background-color: aqua; */
             width: 100%;
             margin-left: 50px;
+            padding: 10px;
         }
+        
+        /* Inside body */
+        
+            /* Academics head */
+            #Academics{
+                display: flex;
+                align-items: center;
+                padding: 10px;
+            }
+        
+                /* Title - Used for every subdiv inside body */
+                .divTitle {
+                font-size: 20px;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                    margin-left: 5px;
+                }
+                /* Break used to create a line  */
+                .divBreak {
+                    background-color: black;
+                    height: 0.5px;
+                    margin: 5px 0;
+                }
+
+                /* Head Button Bar */
+                #Button-Bar {
+                    width: 100%;
+                    display: flex;
+                    margin-left: 10px;
+                    padding:0 10px;
+                    justify-content: flex-end;
+                    align-items: center;
+                }
+
+                    /* Buttons  */
+                    .Button{
+                        margin: 0 5px;
+                        border: none;
+                        background-color: #1b83c9;
+                        color: white;
+                        border-radius: 15px;
+                        padding: 8px 10px;
+                    }
+
+                    /* Hover Effect on buttons */
+                    .Button:hover {
+                        transform: scale(1.05);
+                    }
+            
+            /* Placement Details */
+            #Placements {
+                display: flex;
+                align-items: center;
+                padding: 10px;
+            }
