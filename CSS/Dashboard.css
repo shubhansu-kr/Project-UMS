@@ -170,30 +170,38 @@ body
         #access-bar {
             display: flex;
             flex-direction: column;
+            width: 100px;
             background-color: #ffaa5a;
-            height: 100%;
-            /* position: absolute; */
-            top: 90px ;
-            left: 0px;
-            /* border: 2px black solid; */
+            border: 2px #ffaa5a solid;
             /* #ffaa5a */
             /* rgba(255,170,90,255) */
         }
 
-        #access-element{
-            width: 90px;
-            height: 90px;
+        .access-element{
+            height: 100%;
+            width: 100%;
+            padding:2px;
             display: flex;
             align-items: center;
             justify-content: center;
-            /* background-color: aqua; */
+            object-fit: cover;
+        }
 
+        .access-element:hover{
+            transform: scale(1.03);
+        }
+
+        .access-img{
+            width: 85px;
+            height: 85px;
+            object-fit: contain;
         }
 
     /* Part2: body content */
         #body-content {
             display: flex;
             flex-direction: column;
-            background-color: aqua;
+            /* background-color: aqua; */
             width: 100%;
+            margin-left: 50px;
         }
