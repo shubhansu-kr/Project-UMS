@@ -419,7 +419,69 @@ body
                             font-size: 12px;
                             color: grey;
                         }
+                        /*  */
+                    /*  */
+                /*  */
+                
 
+                /* Event card */
+                #event-container {
+                    display: flex;
+                    flex-direction: column;
+                    height: 300px;
+                    width: 400px;
+                    background-color: white;
+                    border: #ffaa5a solid;
+                    border-radius: 10px;
+                    margin: 70px 10px;
+                    padding:5px;
+                    overflow: auto;
+                }
+
+                /* Assignment card */
+                #assignment-container {
+                    display: flex;
+                    flex-direction: column;
+                    height: 300px;
+                    width: 400px;
+                    background-color: white;
+                    border: #ffaa5a solid;
+                    border-radius: 10px;
+                    margin: 70px 10px;
+                    padding:5px;
+                    overflow: auto;
+                }
+
+                    /* Title */
+                    .assignment-title {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        font-size: 26px;
+                        background-color: #ffaa5a;
+                        color: white;
+                        border-radius: 15px;
+                        margin:0 5px;
+                        padding-left: 0px;
+                        width: 300px;
+                        font-family: Arial, Helvetica, sans-serif;
+                    }
+                    /*  */
+                /*  */
+
+                /* fee card */
+                #fee-container {
+                    display: flex;
+                    flex-direction: column;
+                    height: 300px;
+                    width: 170px;
+                    background-color: white;
+                    border: #ffaa5a solid;
+                    border-radius: 10px;
+                    margin: 70px 10px;
+                    padding:5px;
+                    overflow: auto;
+                }
             /*  */
 
             
