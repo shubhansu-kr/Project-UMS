@@ -252,6 +252,60 @@ body
                     .Button:hover {
                         transform: scale(1.05);
                     }
+
+            /* Academic content */
+            #academic-content{
+                display: flex;
+                width: 100%;
+                /* height: 400px; */
+                background-color: cadetblue;
+                flex-wrap: wrap;
+            }
+                /* Course container */
+                #course-container {
+                    display: flex;
+                    flex-direction: column;
+                    height: 300px;
+                    width: 500px;
+                    background-color: aqua;
+                    border: #ffaa5a solid;
+                    border-radius: 10px;
+                    margin:10px;
+                    padding:5px;
+                    overflow-y: auto;
+                    
+                }
+                    /* Card title */
+                    .container-title {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        font-size: 26px;
+                        background-color: #ffaa5a;
+                        color: white;
+                        border-radius: 15px;
+                        margin:0 5px;
+                        padding-left: 0px;
+                        width: 150px;
+                        font-family: Arial, Helvetica, sans-serif;
+                    }
+
+                    /* course list */
+                    .course-list {
+                        border: none;
+                        display: flex;
+                        background-color: yellow;
+                        flex-direction: row;
+                        height: 100px;
+                        margin: 5px 0;
+                        border: solid black 1px;
+                    }
+                        /* course list content */
+                        .course-list .ip {
+                            display: flex;
+                            flex-direction: column;
+                        }
+
             
             /* Placement Details */
             #Placements {
