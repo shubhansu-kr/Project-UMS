@@ -492,6 +492,19 @@ body
                 padding: 10px;
             }
 
+                /* Placement drive container */
+                #drive-container {
+                    display: flex;
+                    flex-direction: column;
+                    height: 300px;
+                    width: 400px;
+                    background-color: white;
+                    border: #ffaa5a solid;
+                    border-radius: 10px;
+                    margin: 50px 10px;
+                    padding:5px;
+                    overflow: auto;
+                }
 
 /* customise the scroll bar */
 
