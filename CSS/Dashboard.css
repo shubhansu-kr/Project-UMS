@@ -554,6 +554,18 @@ body
                     overflow: auto;
                 }
 
+            #Announcement {
+                display: flex;
+                width: 100%;
+                flex-wrap: wrap;
+            }
+
+            #Authorities {
+                display: flex;
+                width: 100%;
+                flex-wrap: wrap;
+            }
+
 /* customise the scroll bar */
 
 /* width */
