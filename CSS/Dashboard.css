@@ -505,6 +505,54 @@ body
                     padding:5px;
                     overflow: auto;
                 }
+            
+            #Examination {
+                display: flex;
+                width: 100%;
+                flex-wrap: wrap;
+            }
+
+                #Exam-card {
+                    display: flex;
+                    height: 300px;
+                    width: 500px;
+                    background-color: whitesmoke;
+                    border-radius: 10px;
+                    margin: 50px 10px;
+                    padding:5px;
+                    overflow: auto;
+                    flex-wrap: wrap;
+                }
+
+                .Exam-subcard {
+                    display: flex;
+                    height: 100px;
+                    width: 140px;
+                    background-color: white;
+                    border: #ffaa5a solid;
+                    border-radius: 10px;
+                    margin: 10px ;
+                    padding:5px 15px;
+                    justify-content: center;
+                    align-items: center;
+                    font-size: 18px;
+                    box-sizing: border-box;
+                    text-align: center;
+                }
+
+                /* Seating plan */
+                #seating-container {
+                    display: flex;
+                    flex-direction: column;
+                    height: 300px;
+                    width: 500px;
+                    background-color: white;
+                    border: #ffaa5a solid;
+                    border-radius: 10px;
+                    margin: 50px 10px;
+                    padding:5px;
+                    overflow: auto;
+                }
 
 /* customise the scroll bar */
 
