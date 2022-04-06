@@ -568,9 +568,63 @@ body
             }
 
             #Authorities {
-                display: flex;
                 width: 100%;
-                flex-wrap: wrap;
+                height: 520px;
+                display: flex;
+                justify-content: center;
+            }
+
+            .mentor-card {    
+                display: flex;
+                flex-direction: column;
+                height: 400px;
+                width: 330px;
+                background-color: white;
+                border: #ffaa5a solid;
+                border-radius: 10px;
+                margin: 50px 10px;
+                padding:5px; 
+            }
+            
+            .dp {
+                display: flex;
+                height: 120px;
+                justify-content: center;
+                align-items: center;
+            }
+            
+            .designation {
+                display: flex;
+                font-size: 26px;
+                align-items: center;
+                justify-content: center;
+                background-color: rgb(186, 180, 180);
+                padding: 2px;
+                margin: 2px;
+                color: rgb(78, 74, 74);
+            }
+            
+            .details {
+                padding: 10px;
+                height: 120px;
+            }
+            
+            .name-div {
+                font-size: 14px;
+            }
+            
+            .contact {
+                font-size: 12px;
+            }
+            
+            .appointment {
+                margin: 10px 5px;
+                border: none;
+                background-color: #1b83c9;
+                color: white;
+                border-radius: 15px;
+                padding: 8px 10px;
+                
             }
 
 /* customise the scroll bar */
