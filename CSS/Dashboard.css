@@ -171,12 +171,19 @@ body
             display: flex;
             flex-direction: column;
             width: 100px;
-            background-color: #ffaa5a;
-            border: 2px #ffaa5a solid;
+            background-color: whitesmoke;
+            border: 2px whitesmoke solid;
             /* #ffaa5a */
             /* rgba(255,170,90,255) */
         }
 
+        #filler {
+            display: flex;
+            flex-direction: column;
+            background-color: #ffaa5a;
+            position: sticky;
+            top: 90px;
+        }
         .access-element{
             height: 100%;
             width: 100%;
