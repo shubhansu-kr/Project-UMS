@@ -432,7 +432,7 @@ body
                 
 
                 /* Event card */
-                #event-container {
+                #event-container, #placed {
                     display: flex;
                     flex-direction: column;
                     height: 300px;
@@ -504,7 +504,7 @@ body
                     display: flex;
                     flex-direction: column;
                     height: 300px;
-                    width: 400px;
+                    width: 500px;
                     background-color: white;
                     border: #ffaa5a solid;
                     border-radius: 10px;
@@ -512,7 +512,12 @@ body
                     padding:5px;
                     overflow: auto;
                 }
-            
+                
+                #placed {
+                    margin: 50px 30px;
+                    width: 450px;
+                }
+                
             #Examination {
                 display: flex;
                 width: 100%;
