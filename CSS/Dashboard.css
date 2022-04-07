@@ -517,7 +517,7 @@ body
                     margin: 50px 30px;
                     width: 450px;
                 }
-                
+
             #Examination {
                 display: flex;
                 width: 100%;
@@ -550,6 +550,12 @@ body
                     font-size: 18px;
                     box-sizing: border-box;
                     text-align: center;
+                }
+
+                .Exam-subcard:hover {
+                    color: white;
+                    background-color: #ffaa5a;
+                    border: white solid 2px;
                 }
 
                 /* Seating plan */
