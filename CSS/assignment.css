@@ -1,0 +1,85 @@
+#logo{
+    height: 88px;
+    width: 176px;
+    padding-left: 25px;
+}
+#uniname
+{
+    padding-left: 256px;
+    font-size: xxx-large;
+    color:white;
+}
+#firstheader{
+    border:1px solid gray;
+    background-color:rgb(57 143 242);
+    border-radius: 6px;
+}
+.navigation_bar
+{
+    line-height: 2em;
+    font-size:larger;
+    padding-left: 316px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.nvbar1
+{
+    padding-right: 3px;
+}
+.nvbar2
+{
+    padding-right: 3px;
+}
+.nvbar3
+{
+    padding-right: 3px;
+}
+.subheading{
+    padding-left: 545px;
+    border:1px solid gray;
+    border-radius: 6px;
+    color: white;
+    font-size: x-large;
+    background-color: rgb(92 162 255);
+}
+.theadfirstrow{
+    color:white;
+    background-color: #a7292c;
+}
+.coursecodecss{
+    border:2px solid #868080;
+    border-radius: 4px;
+}
+.tbody_1x1
+{
+    border-radius: 7px;
+    background-color: rgb(57 143 242);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:white;
+}
+.tbody_1x2
+{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 2px solid #868080;
+    border-radius: 4px;
+}
+.secondtablehead
+{
+    color:white;
+    background-color: #2d71cc;
+}
+.secondtableheading
+{
+    border:2px solid grey;
+    border-radius: 4px;
+}
+.secondtabledetails
+{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 2px solid #868080;
+    border-radius: 4px;
+}
+.last_table
+{
+    border: 2px solid grey;
+    border-radius: 4px;
+}
