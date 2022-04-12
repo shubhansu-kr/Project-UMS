@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+}
+
+#nav {
+    display: flex;
+    position: sticky;
+    height: 50px;
+    width: 100%;
+    background-color: #2C3E50;
+    align-items: center;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+
+.home {
+    color: white;
+    margin: 10px;
+    font-size: 20px;
+}
