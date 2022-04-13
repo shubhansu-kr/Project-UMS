@@ -89,4 +89,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 10px;
+    border: #2d71cc solid  2px;
 }
