@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TimeTable</title>
     <link rel="stylesheet" href="./CSS/Timetable.css">
+    <script src="./JavaScript/Timetable.js"></script>
 </head>
 
 <body>
@@ -25,10 +26,296 @@
     </div>
     <hr>
     <div class="subheading">
-        <span>Student assignment upload </span>
+        <span>Weekly TimeTable</span>
     </div>
     <hr>
-
+    <div class="slideShow-container">
+        <div class="card mon">
+            <div class="head">
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <div class="day">Monday</div>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <div class="bod">
+                <div class="lecture">
+                    <div class="course-code">
+                        CSE326
+                    </div>
+                    <div class="timing">
+                        9:00 To 11:00 
+                    </div>
+                    <div class="room-no">
+                        R34-B324
+                    </div>
+                </div>
+                <div class="lecture">
+                    <div class="course-code">
+                        PEL131
+                    </div>
+                    <div class="timing">
+                        12:00 To 13:00
+                    </div>
+                    <div class="room-no">
+                        R36-A314
+                    </div>
+                </div>
+                <div class="lecture">
+                    <div class="course-code">
+                        MEC107
+                    </div>
+                    <div class="timing">
+                        13:00 To 14:00
+                    </div>
+                    <div class="room-no">
+                        R31-C124
+                    </div>
+                </div>
+                <div class="lecture">
+                    <div class="course-code">
+                        ECE216
+                    </div>
+                    <div class="timing">
+                        15:00 TO 17:00
+                    </div>
+                    <div class="room-no">
+                        R34-B324
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="head">
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <div class="day">Tuesday</div>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <div class="bod">
+                <div class="lecture">
+                    <div class="course-code">
+                        CHE110
+                    </div>
+                    <div class="timing">
+                        9:00 To 10:00 
+                    </div>
+                    <div class="room-no">
+                        R34-B324
+                    </div>
+                </div>
+                <div class="lecture">
+                    <div class="course-code">
+                        ECE213
+                    </div>
+                    <div class="timing">
+                        10:00 To 11:00
+                    </div>
+                    <div class="room-no">
+                        R34-B324
+                    </div>
+                </div>
+                <div class="lecture">
+                    <div class="course-code">
+                        PEL131
+                    </div>
+                    <div class="timing">
+                        13:00 To 14:00
+                    </div>
+                    <div class="room-no">
+                        R34-B324
+                    </div>
+                </div>
+                <div class="lecture">
+                    <div class="course-code">
+                        MEC107
+                    </div>
+                    <div class="timing">
+                        14:00 To 15:00
+                    </div>
+                    <div class="room-no">
+                        R34-B324
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="head">
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <div class="day">Wednesday</div>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <div class="bod">
+                <div class="lecture">
+                    <div class="course-code">
+                        CSE202
+                    </div>
+                    <div class="timing">
+                        10:00 To 11:00 
+                    </div>
+                    <div class="room-no">
+                        R34-B324
+                    </div>
+                </div>
+                <div class="lecture">
+                    <div class="course-code">
+                        CHE110
+                    </div>
+                    <div class="timing">
+                        11:00 To 12:00
+                    </div>
+                    <div class="room-no">
+                        R34-B324
+                    </div>
+                </div>
+                <div class="lecture">
+                    <div class="course-code">
+                        PEL131
+                    </div>
+                    <div class="timing">
+                        13:00 To 14:00
+                    </div>
+                    <div class="room-no">
+                        R34-B324
+                    </div>
+                </div>
+                <div class="lecture">
+                    <div class="course-code">
+                        MTh166
+                    </div>
+                    <div class="timing">
+                        14:00 To 15:00
+                    </div>
+                    <div class="room-no">
+                        R34-B324
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="head">
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <div class="day">Thursday</div>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <div class="bod">
+                <div class="lecture">
+                    <div class="course-code">
+                        CSE202
+                    </div>
+                    <div class="timing">
+                        10:00 To 12:00 
+                    </div>
+                    <div class="room-no">
+                        R34-B324
+                    </div>
+                </div>
+                <div class="lecture">
+                    <div class="course-code">
+                        ECE213
+                    </div>
+                    <div class="timing">
+                        13:00 To 14:00
+                    </div>
+                    <div class="room-no">
+                        R34-B324
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="head">
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <div class="day">Friday</div>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <div class="bod">
+                <div class="lecture">
+                    <div class="course-code">
+                        CSE202
+                    </div>
+                    <div class="timing">
+                        10:00 To 12:00 
+                    </div>
+                    <div class="room-no">
+                        R34-B324
+                    </div>
+                </div>
+                <div class="lecture">
+                    <div class="course-code">
+                        ECE213
+                    </div>
+                    <div class="timing">
+                        13:00 To 14:00
+                    </div>
+                    <div class="room-no">
+                        R34-B324
+                    </div>
+                </div>
+                <div class="lecture">
+                    <div class="course-code">
+                        MTh166
+                    </div>
+                    <div class="timing">
+                        14:00 To 15:00
+                    </div>
+                    <div class="room-no">
+                        R34-B324
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="head">
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <div class="day">Saturday</div>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <div class="bod">
+                <div class="lecture">
+                    <div class="course-code">
+                        MTh166
+                    </div>
+                    <div class="timing">
+                        9:00 To 10:00 
+                    </div>
+                    <div class="room-no">
+                        R34-B324
+                    </div>
+                </div>
+                <div class="lecture">
+                    <div class="course-code">
+                        MEC107
+                    </div>
+                    <div class="timing">
+                        10:00 To 11:00
+                    </div>
+                    <div class="room-no">
+                        R34-B324
+                    </div>
+                </div>
+                <div class="lecture">
+                    <div class="course-code">
+                        MTh166
+                    </div>
+                    <div class="timing">
+                        13:00 To 14:00
+                    </div>
+                    <div class="room-no">
+                        R34-B324
+                    </div>
+                </div>
+                <div class="lecture">
+                    <div class="course-code">
+                        ECE213
+                    </div>
+                    <div class="timing">
+                        14:00 To 15:00
+                    </div>
+                    <div class="room-no">
+                        R34-B324
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>

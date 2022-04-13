@@ -56,3 +56,105 @@ a {
     background-color: rgb(92 162 255);
 }
 
+.slideShow-container {
+    width: 100%;
+    height: 520px;
+    display: flex;
+    /* background-color: aqua; */
+    justify-content: center;
+}
+
+.card {    
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 500px;
+    background-color: white;
+    border: #2d71cc solid;
+    border-radius: 10px;
+    margin: 50px 10px;
+    padding:5px; 
+}
+
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+    width: 100%;
+    height: 40px;
+    background-color: rgb(176, 160, 160);
+    letter-spacing: 0.05em;
+}
+
+.head .prev,.head .next {
+    cursor: pointer;
+    width: 15px;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.head .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+    margin: 0 40px;
+}
+
+.head .prev {
+    left: 0;
+    border-radius: 3px 0 0 3px;
+    margin: 0 40px;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(133, 129, 129, 0.8);
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+  
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+.bod {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0; 
+}
+
+.lecture {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* background-color: bisque; */
+    font-size: 20px;
+    width: 100%;
+    height: 40px;
+    margin: 10px 0;
+}
+
+.room-no {
+    position: relative;
+}
+
+.card {
+    display: none;
+}
+
+.mon {
+    display: block;
+}
+
+.day {
+    width: 100px;
+    text-align: center;
+}
