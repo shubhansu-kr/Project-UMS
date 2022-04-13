@@ -23,3 +23,36 @@ a {
     margin: 10px;
     font-size: 20px;
 }
+
+#logo{
+    height: 88px;
+    width: 176px;
+    padding-left: 25px;
+}
+#uniname
+{
+    padding-left: 256px;
+    font-size: xxx-large;
+    color:white;
+}
+#firstheader{
+    border:1px solid gray;
+    background-color:rgb(57 143 242);
+    border-radius: 6px;
+}
+.navigation_bar
+{
+    line-height: 2em;
+    font-size:larger;
+    padding-left: 316px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.subheading{
+    padding-left: 545px;
+    border:1px solid gray;
+    border-radius: 6px;
+    color: white;
+    font-size: x-large;
+    background-color: rgb(92 162 255);
+}
+
