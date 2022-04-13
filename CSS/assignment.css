@@ -83,3 +83,10 @@
     border: 2px solid grey;
     border-radius: 4px;
 }
+
+.upload {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
